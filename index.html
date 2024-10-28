@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>loading disolay</title>
+    <style>
+      p{
+        text-align: center;
+        font-family: serif;
+        margin-top: 350px;
+      }
+      input{
+        align-items: center;
+        margin-left: 120px;
+        height: 5px;
+        align-content: center;
+      }
+      #counter{
+        margin-left: 190px;
+      }
+      #colorBar {
+    width: 0;
+    height: 5px;
+    background-color: blue;
+    transition: width 0.1s;
+    margin-top: -15px;
+}
+button{
+  margin-left: 170px;
+  margin-top: 10px;
+}
+    </style>
+  </head>
+  <body>
+    <p>loading <br>
+    </p>
+    <input <div id="colorBar"></div>
+   <div id="counter">1 %</div>
+   <div id="color"></div>
+   <button id="check" onclick="fun()">click here</div>
+  </body>
+  <script>
+  let count = 1;
+   width = 0;
+  check.onclick=function(){ 
+const interval = setInterval(() => {
+    if (count > 100 && width>=50) {
+        clearInterval(interval);
+    }else {
+    document.getElementById("counter").textContent = count;
+    count++;
+      counter.style.transition = "20s";
+document.getElementById("colorBar").style.width = "150px";
+        width++;
+      colorBar.style.transition = "1s";
+
+    }
+}); }
+  </script>
+</html>
